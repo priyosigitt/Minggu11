@@ -1,0 +1,32 @@
+.form-div {
+  width: 45%;
+  background: #333333;
+  margin: 50px auto;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  padding: 10px;
+  border-radius: 25px;
+  transition: 0.5s ease; }
+  .form-div:hover img {
+    transform: rotateX(-350deg);
+    transition: 0.5s ease; }
+  .form-div img {
+    width: 30%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    transform: rotateX(350deg); }
+  .form-div .full-width {
+    width: 100% !important;
+    margin: 10px 0 !important; }
+    .form-div .full-width input {
+      width: 100%; }
+    .form-div .full-width i {
+      color: #333333; }
+  .form-div button {
+    width: 40%;
+    font-size: 16px !important; }
+
+table tr:first-child td {
+  border-top: none; }
+
+/*# sourceMappingURL=main.css.map */

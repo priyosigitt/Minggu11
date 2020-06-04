@@ -1,0 +1,46 @@
+.form-div{
+  width: 45%;
+  background: #333333;
+  margin: 50px auto;
+  border: 1px solid rgba(34,36,38,.15);;
+  padding: 10px;
+  border-radius: 25px;
+  transition: 0.5s ease;
+
+  &:hover{
+    img{
+      transform: rotateX(-350deg);
+      transition: 0.5s ease;
+    }
+  }
+  img{
+    width: 30%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    transform: rotateX(350deg);
+  }
+  .full-width{
+    width: 100% !important;
+    margin: 10px 0 !important;
+    input{
+      width: 100%;
+    }
+    i{
+      color: #333333;
+    }
+  }
+  button{
+    width: 40%;
+    font-size: 16px !important;
+  }
+}
+table {
+  tr {
+    &:first-child {
+      td {
+        border-top: none;
+      }
+    }
+  }
+}
